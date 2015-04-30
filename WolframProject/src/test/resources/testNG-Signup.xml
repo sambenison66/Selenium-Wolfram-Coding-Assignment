@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suits SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Wolfram Signup Test Suite" parallel="false">
+  <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="SignUp">
+    <classes>
+      <class name="com.wolfram.test.SignUp"/>
+    </classes>
+  </test>
+</suite>
